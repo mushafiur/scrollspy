@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta tag -->
+
+
+    <title>BT5 scrollspy</title>
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+    <!-- css links -->
+  </head>
+
+  <!-- body start -->
+  <body  data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- scrollspy start -->
+    <header class="header">
+      <div class="container">
+
+        <!-- nav start -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home_sec">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Photos_sec">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About_sec">About us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- nav end -->
+
+      </div>
+    </header>
+   <!-- scrollspy end -->
+
+   <!-- scrollspy item start -->
+   <section class="scroll_item">
+     <div class="container">
+
+        <div id="home_sec" class="container-fluid bg-success text-white c_pad">
+          <h1>Home</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+
+        <div id="Photos_sec" class="container-fluid bg-warning c_pad">
+          <h1>Photos</h1>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="images/minimal1.jpg" alt="minimal" class="d-block w-100">
+            </div>
+            <div class="col-lg-4">
+              <img src="images/minimal3.jpg" alt="minimal" class="d-block w-100">
+            </div>
+            <div class="col-lg-4">
+              <img src="images/minimal2.jpg" alt="minimal" class="d-block w-100">
+            </div>
+          </div>
+          <p class="mt-4">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+
+        <div id="About_sec" class="container-fluid bg-secondary text-white c_pad">
+          <h1>About us</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+
+     </div>
+   </section>
+   <!-- scrollspy item end -->
+  
+
+  <!-- js start -->
+   <script  src="js/bootstrap.bundle.min.js"></script>
+   <script  src="js/script.js"></script>
+  <!-- js end  -->
+
+  </body>
+  <!-- body end -->
+
+</html>
